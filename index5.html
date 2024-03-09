@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Bookings</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="whereto">
+            <input type="text" placeholder="Where to?" class="rounded-input">
+        </div>
+        <div class="nav-links">
+            <a href="http://127.0.0.1:3000/index.html?"><img class="homelogo" src="free-home-icon-8.jpg" alt="Home"></a>
+            <div><a href="http://127.0.0.1:3000/index2.html" class="login"><p>Log In</p></a></div>
+            <button class="sign-in" onclick="navigateTo()">Sign In</button>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="nav-icons">
+           <div> <a href="#"><img src="Screenshot 2024-03-09 204640.png" alt="Hotels"></a>
+            <p>Hotels</p>
+            </div>
+            <div><a href="#"><img src="train logo.jpg" alt="Trains"></a>
+                <p>Trains</p>
+            </div>
+            <div><a href="http://127.0.0.1:3000/index4.html"><img src="https://tse4.mm.bing.net/th?id=OIP.D-wHk8CXsWLbJzb1Wlx-wAHaHa&pid=Api&P=0&h=180" alt="Bikes"></a>
+                <p>Bikes</p>
+            </div>
+            <div><a href="#"><img src="Buslogo.jpg" alt="Buses"></a>
+                <p> Buses</p>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h2>Arrange green sustainable accommodations and activities</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Enter Destination" class="destination">
+            <input type="text" placeholder="Enter Dates" class="dates">
+            <button class="find-bikes">Find hotels</button>
+        </div>
+         <div class="heading2">
+          <h2>Travellers Top Picks</h2>
+          <a href="#" class="see-all">See all</a>
+         </div>
+         <div class="Hotel-images">
+            <img src="Hotel1.jpeg" alt="Hotel 1">
+            <img src="hotel2.JPG" alt="Hotel 1">
+            <img src="hotel33.jpeg" alt="Hotel 1">
+         </div>
+         <div class="Carbon">
+            <button class="Explore" onclick="navigateToEF()">Explore our eco friendly amenities</button>
+         </div>
+
+    </div>
+    <footer>
+    <script>
+        function navigateTo(){
+            var target="http://127.0.0.1:3000/index1.html";
+            window.location.href=target;
+        }
+        function navigateToEF(){
+            var target1="http://127.0.0.1:3000/index3.html";
+            window.location.href=target1;
+        }
+    </script>
+       
+</body>
+</html>

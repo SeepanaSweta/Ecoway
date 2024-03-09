@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="http://127.0.0.1:3000/index.html?" class="home-icon"><img class="home-logo"src="free-home-icon-8.jpg" alt="Home"></a>
+            <a href="http://127.0.0.1:3000/index2.html" class="login">
+                <p>Log In</p></a>
+            <button class="sign-up" onclick="navigate()">Sign Up</button>
+        </div>
+    </header>
+    
+    <div class="main-content">
+        <h1>Quantify Your Carbon Footprint</h1>
+        <h2 class="h22">Enter the following details to calculate</h2>
+        
+        <div class="transportation">
+            <select id="mode">
+                <option value="walking">Walking</option>
+                <option value="public_transport">Public Transportation</option>
+                <option value="carpooling">Carpooling</option>
+                <option value="personal_vehicle">Personal Vehicle</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <input type="number" id="distance" placeholder="Enter distance traveled">
+            <button onclick="calculate()" class="calculate">Calculate</button>
+        </div>
+            
+       
+        
+        <div id="result"></div>
+        
+        <div class="matter">
+            <h2>Examine across different factors</h2>
+            <a href="#" class="see-all">See All</a>
+        </div>
+        
+        <div class="oval-shapes">
+            <div class="oval-walking">Walking and Cycling</div>
+            <div class="oval-public_transport">Public Transportation</div>
+            <div class="oval-carpooling">Carpooling</div>
+            <div class="oval-personal_vehicle">Personal Vehicles</div>
+        </div>
+    </div>
+
+    <script src="script6.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Booking</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="whereto">
+            <input type="text" placeholder="Where to?" class="rounded-input">
+        </div>
+        <div class="nav-links">
+            <a href="http://127.0.0.1:3000/index.html?"><img class="homelogo" src="free-home-icon-8.jpg" alt="Home"></a>
+            <div><a href="http://127.0.0.1:3000/index2.html" class="login"><p>Log In</p></a></div>
+            <button class="sign-in" onclick="navigateToPage()">Sign In</button>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="nav-icons">
+           <div> <a href="http://127.0.0.1:3000/index5.html"><img src="Screenshot 2024-03-09 204640.png" alt="Hotels"></a>
+            <p>Hotels</p>
+            </div>
+            <div><a href="#"><img src="train logo.jpg" alt="Trains"></a>
+                <p>Trains</p>
+            </div>
+            <div><a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.D-wHk8CXsWLbJzb1Wlx-wAHaHa&pid=Api&P=0&h=180" alt="Bikes"></a>
+                <p>Bikes</p>
+            </div>
+            <div><a href="#"><img src="Buslogo.jpg" alt="Buses"></a>
+                <p> Buses</p>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h2>Take the sustainable route by riding a bike</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Enter Destination" class="destination">
+            <input type="text" placeholder="Enter Dates" class="dates">
+            <button class="find-bikes">Find Bikes</button>
+        </div>
+         <div class="heading2">
+          <h2>Explore bike services</h2>
+          <a href="#" class="see-all">See all</a>
+         </div>
+    </div>
+
+    <footer>
+        <div class="image-text">
+          
+            <img src="bike sharing.jpg" alt="Image 1">
+            <div class="Bike-sharing">
+                <h3>Bike Sharing</h3>
+                <p>Convenient and sustainable way to access bikes for short trips </p>
+            </div>
+        </div>
+        <div class="image-text">
+            <img src="rental.jpeg" alt="Image 2">
+            <div class="Bike-Rental">
+              <h3>Bike rental</h3>
+              <p>Rent Bikes for short trips return to designated stations</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function navigateToPage(){
+            var targetPage2="http://127.0.0.1:3000/index1.html";
+            window.location.href=targetPage2;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f1e8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sign-header {
+    color: #000;
+    font-weight: bold;
+    Margin-left:230px;
+  }
+  
+  .house-icon {
+    width: 30px;
+    height: auto;
+  }
+  
+  .create-account {
+    color: #000;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .input-container input:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .signup-button, .google-signin-button {
+    padding: 10px 20px;
+    background-color:rgb(155, 207, 83);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover, .google-signin-button:hover {
+    background-color: #359d73;
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  .login-link {
+    color:rgb(155, 207, 83);
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  .home-link {
+    text-decoration: none;
+  }
+  .homeicon
+  {
+    width:80px;
+    height:auto;
+    Margin-left:600px;
+  }
+  .usericon
+  {
+    width:33px;
+    height:auto;
+    border-bottom-right-radius:50%;
+    border-top-right-radius:50%;
+    
+  }
+  .emailicon{
+    width:40px;
+    height:auto;
+    border-bottom-right-radius:50%;
+    border-top-right-radius:50%;
+    
+  }
+  .passwordicon
+  {
+    width:60px;
+    height:auto;
+    border-bottom-right-radius:50%;
+    border-top-right-radius:50%;
+    
+  }
+

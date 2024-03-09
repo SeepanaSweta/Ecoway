@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f1e8;
+}
+
+header {
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    border-radius:50%;
+}
+.login{
+    color: black;
+
+}
+.see-all{
+    margin-left: 800px;
+    margin-top: 30px;
+    color: black;
+}
+h2{
+    margin-left:50px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.inputs{
+    align-items: center;
+    margin-left: 650px;
+    display: grid;
+    margin-top:13px;
+    width: 100px;
+}
+.home-logo{
+    width:auto;
+    height:50px;
+}
+.nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+.matter{
+    display:flex;
+}
+.sign-up {
+    background-color:rgb(155, 207, 83);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+}
+.transportation{
+    margin-left:650px;
+}
+.h22{
+    margin-right:50px;
+}
+
+.transportation select,
+.transportation input,
+.transportation button {
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    padding: 10px;
+}
+
+.calculate {
+    background-color:rgb(155, 207, 83);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.oval-shapes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding:10px;
+}
+.oval-walking,
+.oval-public_transport,
+.oval-carpooling,
+.oval-personal_vehicle{
+    width:200px;
+    height:90px;
+   background-color:rgb(197, 235, 170);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.walkling {
+    background-color:white;
+ 
+  
+}
+
+.public_transport {
+    background-color:white;
+}
+
+.carpooling {
+    background-color:white;
+}
+
+.personal_vehicle {
+    background-color:white;
+}

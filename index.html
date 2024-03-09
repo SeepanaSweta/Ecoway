@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>EcoWay</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <img src="logo.png" alt="EcoWay Logo">
+        <span class="slogan">Your Path to Sustainable Adventures</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="http://127.0.0.1:3000/index5.html"><img src="Screenshot 2024-03-09 204640.png" alt="Hotel Icon"></a>
+        <p>Hotel</p></li>
+        <li><a href="#trains"><img src="train logo.jpg" alt="Train Icon"></a>
+        <p>Trains</p></li>
+        <li><a href="#buses"><img src="Buslogo.jpg" alt="Bus Icon"></a>
+        <p>Buses</p></li>
+        <li><a href="http://127.0.0.1:3000/index4.html"><img src="https://tse4.mm.bing.net/th?id=OIP.D-wHk8CXsWLbJzb1Wlx-wAHaHa&pid=Api&P=0&h=180" alt="Bike Icon"></a>
+        <p>Bikes</p></li>
+      </ul>
+      <div class="auth-buttons">
+        <button id="login" onclick="navigateTologinPage()">Log In</button>
+        <button id="signup" onclick="navigateTosignupPage()">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="intro">
+      <h1>Curate a personalized eco-conscious travel experience</h1>
+      <h3>Book your Tours, accommodations online</h3>
+      <form class="search-form">
+        <input type="text" placeholder="Where to?">
+        <img class="search_icon" src="search icon.jpeg" alt="Search Icon">
+      </form>
+      <form class="date-form">
+        <input type="text" placeholder="Start Date"><input type="text" placeholder="End Date">
+        <img class="calendar_icon"src="calendrer icon.jpeg" alt="Calendar Icon">
+      </form>
+      <button class="start-planning">Start Planning</button>
+    </section>
+
+    <section class="carbon-footprint">
+      <h2 id="carbon">Compare Carbon Footprints</h2>
+      <a  class="buttons" href="http://127.0.0.1:3000/index6.html">Check across different travel choices</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contact">
+      <h4>Contact Us</h4>
+      <p>Email: info@ecoway.com</p>
+      <p>Phone: 123-456-7890</p>
+    </div>
+    <div class="about">
+      <h4>About Us</h4>
+      <p>EcoWay is dedicated to promoting sustainable travel and eco-friendly adventures.</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 EcoWay. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    function navigateTologinPage(){
+      var targetPage="http://127.0.0.1:3000/index2.html";
+      window.location.href=targetPage;
+    }
+    function navigateTosignupPage(){
+      var targetPage1="http://127.0.0.1:3000/index1.html";
+      window.location.href=targetPage1;
+    }
+  </script>
+</body>
+</html>
